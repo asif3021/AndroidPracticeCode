@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/backgroundColor"
+    android:weightSum="2"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="2"
+        >
+        <android.support.v7.widget.CardView
+            android:id="@+id/schoolCardViewId"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <ImageView
+                        android:padding="10dp"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/school_icon"
+                        android:background="@drawable/background_deep_purple"
+                        />
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/option1"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"
+                        android:textAppearance="?android:textAppearanceLarge"
+
+                        />
+
+
+                </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/hospitalCardViewId"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/hospital_icon"
+                    android:background="@drawable/background_pink"
+                    />
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option2"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:textAppearanceLarge"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="2"
+        >
+        <android.support.v7.widget.CardView
+            android:id="@+id/airportCardViewId"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/airport_icon"
+                    android:background="@drawable/background_green"
+                    />
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option3"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:textAppearanceLarge"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/restaurantCardViewId"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/restaurant_icon"
+                    android:background="@drawable/background_blue"
+                    />
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option4"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:textAppearanceLarge"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

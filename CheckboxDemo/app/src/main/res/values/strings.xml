@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CheckboxDemo</string>
+    <string name="title_text">Please select item(s) to parches:</string>
+    <string name="item1">Water</string>
+    <string name="item2">Milk</string>
+    <string name="item3">Juice</string>
+    <string name="item4">Bread</string>
+    <string name="btn">Buy Now</string>
+    <string name="btn2">Reset</string>
+</resources>

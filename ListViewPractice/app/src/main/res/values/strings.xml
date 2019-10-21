@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ListViewPractice</string>
+
+    <string-array name="country_names">
+        <item>America</item>
+        <item>Bangladesh</item>
+        <item>Brazil</item>
+        <item>Bhutan</item>
+        <item>China</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Japan</item>
+        <item>Mexico</item>
+        <item>Nepal</item>
+        <item>Pakistan</item>
+        <item>Singapur</item>
+        <item>Sri lanka</item>
+    </string-array>
+</resources>

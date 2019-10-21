@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TextViewDemo</string>
+    <string name="username">Name : Asif Ahmed</string>
+    <string name="user_age">Age : 25</string>
+    <string name="user_contact">Mobile : +88 01751048671</string>
+    <string name="user_address">Address : Dhanmondi, Dhaka</string>
+</resources>

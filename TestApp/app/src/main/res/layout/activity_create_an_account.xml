@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".CreateAnAccount">
+
+    <EditText
+        android:id="@+id/name_id"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Enter name"
+        android:inputType="text"
+        android:textSize="25sp"
+        />    <EditText
+        android:id="@+id/email_id"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Enter name"
+        android:inputType="text"
+        android:textSize="25sp"
+        />    <EditText
+        android:id="@+id/pass_id"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Enter name"
+        android:inputType="text"
+        android:textSize="25sp"
+        />
+
+
+    <Button
+        android:id="@+id/create_an_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:onClick="submit"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>

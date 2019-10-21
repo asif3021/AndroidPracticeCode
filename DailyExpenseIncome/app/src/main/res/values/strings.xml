@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Dashboard</string>
+
+
+    <string name="date_time_format">dd-MMM-yyyy HH:mm:ss</string>
+    <string name="option1">Expenses</string>
+    <string name="option2">Income</string>
+    <string name="option3">Settings</string>
+    <string name="option4">Statement</string>
+    <string name="balanceText">Current balance</string>
+    <string name="expenseText">Current expense</string>
+
+
+    <string-array name="expense_head">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Accessories</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="income_head">
+        <item>Office</item>
+        <item>Personal</item>
+        <item>Others</item>
+    </string-array>
+</resources>

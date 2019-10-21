@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SharedPreferenceDemo</string>
+    <string name="home_reg"><u>Registration Form</u></string>
+</resources>

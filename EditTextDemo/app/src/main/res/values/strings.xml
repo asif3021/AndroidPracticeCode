@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EditTextDemo</string>
+    <string name="text_Hint1">Enter first number</string>
+    <string name="text_Hint2">Enter second number</string>
+</resources>

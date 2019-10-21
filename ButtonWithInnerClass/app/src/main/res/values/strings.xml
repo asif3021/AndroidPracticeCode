@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ButtonWithInnerClass</string>
+    <string name="btn">Click Me</string>
+</resources>

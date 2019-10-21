@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrationActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_reg"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstName"
+        android:layout_marginTop="67dp"
+        android:hint="First Name"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastName"
+        android:hint="Last Name"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="Email" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/address"
+        android:hint="Address" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/mobile"
+        android:hint="Phone no." />
+
+    <EditText
+        android:layout_width="250dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/dob"
+        android:hint="dob" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/religion"
+        android:hint="Religion" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/nid"
+        android:hint="National ID no." />
+
+    <EditText
+        android:layout_width="250dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="Password" />
+
+    <!--
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        -->
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Save"
+        android:id="@+id/save_btn"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+</LinearLayout>

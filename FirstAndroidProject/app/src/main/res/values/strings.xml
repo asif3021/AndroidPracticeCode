@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FirstAndroidProject</string>
+    <string name="home_btn1">Create an account</string>
+    <string name="make_complain_btn">Place your complain</string>
+    <string name="second_activity_title"><u>Create an account</u></string>
+    <string name="btn_text">Exit</string>
+    <string name="alert_title">Exit App</string>
+    <string name="alert_message">Do you want to exit.</string>
+</resources>

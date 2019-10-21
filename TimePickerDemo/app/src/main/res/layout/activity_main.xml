@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TimePicker
+        android:id="@+id/timePicker_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TimePicker>
+
+    <Button
+        android:id="@+id/btn_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="Show Time"
+        android:textAllCaps="false"
+        />
+
+    <TextView
+        android:id="@+id/tv_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="#000"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CountryFlugWithDescription">
+
+    <ImageView
+        android:id="@+id/iv_id1"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/country_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country Name"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:id="@+id/sv_tv_id1"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            />
+
+    </ScrollView>
+
+</LinearLayout>

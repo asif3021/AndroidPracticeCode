@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:background="#e5eae0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="20">
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="3.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Amount"
+            android:textSize="18sp"
+            />
+
+        <View
+            android:layout_height="65dp"
+            android:layout_width="2dp"
+            android:background="#90a39e9e"
+            />
+        <LinearLayout
+            android:layout_weight="6"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="TXN Type"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="TXN Purpose"
+                android:layout_marginTop="10dp"
+                />
+        </LinearLayout>
+
+
+        <View
+            android:layout_height="65dp"
+            android:layout_width="2dp"
+            android:background="#90a39e9e"
+            />
+
+        <LinearLayout
+            android:layout_weight="5"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Date"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Time"
+                android:layout_marginTop="10dp"
+                />
+        </LinearLayout>
+
+
+        <View
+            android:layout_height="65dp"
+            android:layout_width="2dp"
+            android:background="#90a39e9e"
+            />
+
+            <TextView
+                android:gravity="center"
+                android:layout_weight="5.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Desc"
+                android:textSize="18sp"
+                />
+
+    </LinearLayout>
+    <View
+        android:layout_height="3dp"
+        android:layout_width="match_parent"
+        android:background="#90a39e9e"
+        android:layout_marginBottom="5dp"
+        />
+
+    <ListView
+        android:id="@+id/listAdapterDemoId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="5dp"
+        />
+</LinearLayout>

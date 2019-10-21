@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TableRow
+        android:id="@+id/titleRowId"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_span="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:text="Expense Report"
+            android:textSize="20sp"
+            android:background="#e3daf2"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/dataRowId"
+        android:background="#e7e7e7"
+        >
+
+        <TextView
+            android:layout_width="73dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Serial no."
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:text="Date"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:text="Type"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:text="Amount"
+            android:textSize="20sp"
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/dataRow1Id"
+        android:background="#e7e7e7"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:text="16-Dec-2018"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:text="Expense"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:text="50"
+            android:textSize="20sp"
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/dataRow2Id"
+        android:background="#e7e7e7"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="2"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:text="14-Dec-2018"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:text="Expense"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:text="50"
+            android:textSize="20sp"
+            />
+
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/backgroundColor"
+    android:weightSum="3"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="2"
+        >
+        <android.support.v7.widget.CardView
+            android:id="@+id/balanceViewId"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/balance_icon"
+                    android:background="@drawable/balance_design"
+                    />
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/balanceText"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:textAppearanceLarge"
+
+                    />
+
+                <TextView
+                    android:id="@+id/currentBalanceId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1000Tk"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:textAppearanceLarge"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/expenseViewId"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/background_blue"
+                    android:padding="10dp"
+                    android:src="@drawable/expense_icon" />
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/expenseText"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:textAppearanceLarge"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/currentExpenseId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1000Tk"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:textAppearanceLarge"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="2"
+        >
+        <android.support.v7.widget.CardView
+            android:id="@+id/expenseCardViewId"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/expense2_icon"
+                    android:background="@drawable/background_deep_purple"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option1"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:textAppearanceLarge"
+
+                    />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/depositCardViewId"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/deposit_icon"
+                    android:background="@drawable/background_pink"
+                    />
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option2"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:textAppearanceLarge"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="2"
+        >
+        <android.support.v7.widget.CardView
+            android:id="@+id/settingsCardViewId"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/settings_icon"
+                    android:background="@drawable/background_green"
+                    />
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option3"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:textAppearanceLarge"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/statementCardViewId"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/background_blue"
+                    android:padding="10dp"
+                    android:src="@drawable/money" />
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/option4"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:textAppearanceLarge"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

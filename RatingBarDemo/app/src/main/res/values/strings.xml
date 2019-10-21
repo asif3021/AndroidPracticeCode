@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RatingBarDemo</string>
+    <string name="submitBtn">Send Us</string>
+    <string name="backBtn">Back to rating page</string>
+</resources>

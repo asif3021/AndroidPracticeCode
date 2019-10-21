@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ButtonListenerDemo</string>
+    <string name="login">Login button is clicked</string>
+    <string name="logout">Logout button is clicked</string>
+</resources>

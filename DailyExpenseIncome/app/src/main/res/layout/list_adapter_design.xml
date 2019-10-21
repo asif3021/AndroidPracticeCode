@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="20"
+    >
+
+
+    <TextView
+        android:id="@+id/listDesign_amount"
+        android:gravity="center"
+        android:layout_weight="3.5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Amount"
+        android:textSize="18sp"
+        />
+
+
+    <View
+        android:layout_height="match_parent"
+        android:layout_width="2dp"
+        android:background="#90a39e9e"
+        />
+    <LinearLayout
+        android:layout_weight="6"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/listDesign_txnType"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="TXN Type"
+            />
+
+        <TextView
+            android:id="@+id/listDesign_txnPurpose"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="TXN Purpose"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_height="match_parent"
+        android:layout_width="2dp"
+        android:background="#90a39e9e"
+        />
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/listDesign_date"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Date"
+            />
+
+        <TextView
+            android:id="@+id/listDesign_time"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Time"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+
+    <View
+        android:layout_height="match_parent"
+        android:layout_width="2dp"
+        android:background="#90a39e9e"
+        />
+
+    <TextView
+        android:id="@+id/listDesign_desc"
+        android:gravity="center"
+        android:layout_weight="5.5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="RAOWA and SMM transport cost on wednesday at day"
+        android:textSize="18sp"
+        />
+
+
+
+
+
+</LinearLayout>
